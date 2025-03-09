@@ -1,0 +1,31 @@
+{
+  "name": "express-web-server",
+  "version": "1.0.0",
+  "description": "An example web server with Express.js",
+  "type": "module",
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": {
+    "name": "Eric Boyd",
+    "email": "ETBoyd@proton.me",
+    "url": "https://github.com/EBoyd3443"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "test": ""
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
